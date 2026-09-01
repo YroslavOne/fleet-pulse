@@ -36,7 +36,10 @@ export default tseslint.config(
     },
 
     {
-        files: ["src/shared/ui/**/*.tsx"],
+        files: [
+            "src/shared/ui/**/*.tsx",
+            "src/routes/**/*.tsx",
+        ],
         rules: {
             "react-refresh/only-export-components": "off",
         },
